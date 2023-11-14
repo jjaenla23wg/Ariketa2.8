@@ -32,7 +32,9 @@ public class Main {
                     case 1:
                         emaitza = zenb2 + zenb3;
                         break;
-
+                    case 2:
+                        emaitza = zenb2 - zenb3;
+                        break;
                 }
                 System.out.println("Eragiketaren emaitza " + emaitza + " da.");
             }
