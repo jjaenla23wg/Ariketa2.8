@@ -18,12 +18,7 @@ public class Main {
             float zenb2 = sc.nextFloat();
             System.out.println("Sartu bigarren zenbakia (hamartarra izan daiteke):");
             float zenb3 = sc.nextFloat();
-
-            if (zenb3 == 0 && (zenb1 == 4 || zenb1 == 4)){
-
-                System.out.println("Ariketa hau ezin da zati zero egin.");
-
-            }
+            
             else {
                 double emaitza = 0;
                 switch (zenb1){
