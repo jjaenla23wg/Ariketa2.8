@@ -35,6 +35,10 @@ public class Main {
                     case 2:
                         emaitza = zenb2 - zenb3;
                         break;
+                    case 3:
+                        emaitza = zenb2 * zenb3;
+                        break;
+
                 }
                 System.out.println("Eragiketaren emaitza " + emaitza + " da.");
             }
