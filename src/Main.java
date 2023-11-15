@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Aukeratu eragiketa bat:");
         System.out.println("1. batuketa \t 2.Kenketa");
         System.out.println("3. Biderketa \t 4.Zatiketa");
+        System.out.println("5. Berreketa \t 6.Hondarra");
 
         int zenb1 = sc.nextInt();
 
@@ -38,8 +39,14 @@ public class Main {
                     case 4:
                         emaitza = zenb2 / zenb3;
                         break;
+                    case 5:
+                        emaitza = Math.pow(zenb2,zenb3);
+                        break;
+                    case 6:
+                        emaitza = zenb2 % zenb3;
+                        break;
                 }
-                System.out.println("Eragiketaren emaitza " + emaitza + " da.");
+                System.out.println("Ezkatu duzun eragiketaren emaitza " + emaitza + " da.");
             }
         }
         sc.close();
