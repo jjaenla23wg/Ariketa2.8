@@ -20,10 +20,7 @@ public class Main {
 
             if (zenb3 == 0 && (zenb1 == 4 || zenb1 == 4)){
 
-                System.out.println("Ariketa hau zin da zati zero egin.");
-
-                System.out.println("Ezin da zati 0 egin.");
-
+                System.out.println("Ariketa hau ezin da zati zero egin.");
 
             }
             else {
